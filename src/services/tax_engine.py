@@ -3,6 +3,7 @@ Business logic for tax calculation.
 
 Demonstrates organization-specific logic for luxury items.
 """
+import decimal
 from decimal import Decimal
 from src.config.constants import (
     CONF_DEFAULT_TAX_RATE,
